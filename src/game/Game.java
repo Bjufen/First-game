@@ -135,7 +135,7 @@ public class Game
 
         while(turnsLeft == 0)
         {
-            System.out.println("What difficulty do you want?. Brutal, Hard, Intermediate, Easy, Training Wheels");
+            System.out.println("What difficulty do you want? \nBrutal, Hard, Intermediate, Easy or Training Wheels?");
             inputLine = n.nextLine();
 
             if(inputLine.equals("Brutal"))
